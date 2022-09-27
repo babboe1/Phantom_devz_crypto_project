@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-   </head>
-   <body id="body">
-      <header id="header">
-         <!-- Div container for logo image -->
-         <div class="logo-box">
-            <img src="" alt="" class="logo" />
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <header id="header">
+      <!-- Div container for logo image -->
+      <div class="logo-box">
+        <img src="" alt="" class="logo" />
+      </div>
 
-         <!-- Div container for navigation -->
-         <nav id="nav">
-            <!-- Nav menu items -->
-            <ul class="nav__menu">
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> Products </a>
-               </li>
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> Features </a>
-               </li>
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> About </a>
-               </li>
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> Contact </a>
-               </li>
-            </ul>
+      <!-- Div container for navigation -->
+      <nav id="nav">
+        <!-- Nav menu items -->
+        <ul class="nav__menu">
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> Products </a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> Features </a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> About </a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> Contact </a>
+          </li>
+        </ul>
 
-            <!-- Div for Login and register -->
-            <div class="nav__login">
-               <span class="nav__login--text"> Login </span>
-               <div class="nav__register">
-                  <a href="" class="nav__register--link"> Register </a>
-               </div>
+        <!-- Div for Login and register -->
+        <div class="nav__login">
+          <span class="nav__login--text"> Login </span>
+          <div class="nav__register">
+            <a href="" class="nav__register--link"> Register </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- Div for Cryptocurrencies(name in Figma design file) Contribution from Titi -->
+      <section class="crypto-container">
+        <div class="crypto-heading">
+          <h3 class="crypto-text"></h3>
+        </div>
+        <div class="coinboxes">
+          <div class="bitcoin">
+            <img src="" alt="" class="bitcoin__img" />
+            <div class="bname-container">
+              <p class="bit-name"></p>
+              <p calss="btc"></p>
             </div>
-         </nav>
-      </header>
-      <main id="main"></main>
-      <footer id="footer"></footer>
-   </body>
+            <p class="fine-print"></p>
+            <a href="" class="coin__link"> Start mining </a>
+          </div>
+          <div class="ethereum">
+            <img src="" alt="" class="ethereum__img" />
+            <div class="ethname-container">
+              <p class="eth-name"></p>
+              <p calss="eth"></p>
+            </div>
+            <p class="fine-print"></p>
+            <a href="" class="coin__link"></a>
+          </div>
+          <div class="litecoin">
+            <img src="" alt="" class="litecoin__img" />
+            <div class="litename-container">
+              <p class="lite-name"></p>
+              <p calss="ltc"></p>
+            </div>
+            <p class="fine-print"></p>
+            <a href="" class="coin__link"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer"></footer>
+  </body>
 </html>
