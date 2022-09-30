@@ -1,4 +1,9 @@
 {
-    "prettier.useTabs": true,
-    "editor.tabSize": 2
+  "prettier.useTabs": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "prettier.printWidth": 120
 }
