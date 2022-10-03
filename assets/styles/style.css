@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Universal Styles */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -143,3 +145,90 @@ body {
 	padding: 0 20px;
 }
 	
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #fff;
+}
+
+#body {
+  font-family: 'Rubik', sans-serif;
+  border: 1px solid red;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #0D0D2B;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* styles for Header */
+#header {
+  /* border: 1px solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 7.5rem 5.36rem;
+}
+
+
+/* styles for nav menu and login*/
+#nav {
+  /* border: 1px solid green; */
+  width: 100%;
+  max-width: 38.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.nav__login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 220px;
+}
+
+.nav__login--text {
+  font-weight: 500;
+  width: calc(50% - 24px);
+  border-right: 1px solid #f2f2f2;
+}
+
+.nav__register {
+  border-radius: 2rem;
+  background-color: #3671e9;
+  width: 50%;
+  text-align: center;
+  padding: 14px 0;
+}
+
+/* styles for main sections */
+#main {
+  /* border: 1px solid green; */
+  width: 100%;
+  padding: 0 7.5rem;
+}
+
+
+/*Hero section  */
+.hero-section {
+  
+}

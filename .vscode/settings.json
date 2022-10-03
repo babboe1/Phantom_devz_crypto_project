@@ -1,5 +1,19 @@
 {
+<<<<<<< HEAD
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
     ]
+=======
+  "prettier.useTabs": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "prettier.printWidth": 120,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+>>>>>>> 1c449bb8607298be31236c9725b803323a41cf31
 }
