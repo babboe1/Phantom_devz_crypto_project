@@ -1,67 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-   </head>
-   <body id="body">
-      <header id="header">
-         <!-- Div container for logo image -->
-         <div class="logo-box">
-            <img src="" alt="" class="logo" />
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7923aeb42c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Phantom_Devz_crypto_project</title>
+  </head>
 
-         <!-- Div container for navigation -->
-         <nav id="nav">
-            <!-- Nav menu items -->
-            <ul class="nav__menu">
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> Products </a>
-               </li>
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> Features </a>
-               </li>
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> About </a>
-               </li>
-               <li class="nav__menu-item">
-                  <a href="" class="menu-item__link"> Contact </a>
-               </li>
-            </ul>
+  <body id="body">
+    <header id="header">
+      <!-- Div container for logo image -->
+      <div class="logo-box">
+        <img src="./assets/images/logo.svg" alt="" class="logo" />
+      </div>
 
-            <!-- Div for Login and register -->
-            <div class="nav__login">
-               <span class="nav__login--text"> Login </span>
-               <div class="nav__register">
-                  <a href="" class="nav__register--link"> Register </a>
-               </div>
+      <!-- Div container for navigation -->
+      <nav id="nav">
+        <!-- Nav menu items -->
+        <ul class="nav__menu">
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> Products </a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> Features </a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> About </a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="menu-item__link"> Contact </a>
+          </li>
+        </ul>
+
+        <!-- Div for Login and register -->
+        <div class="nav__login">
+          <span class="nav__login--text"> Login </span>
+          <div class="nav__register">
+            <a href="/" class="nav__register--link"> Register </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- container for the hero section  [Raneh] -->
+      <section class="hero-section">
+        <div class="first_container">
+          <div class="text_content">
+            <div class="light_dark_bar">
+              <span class="light_dark_bar_text"
+                >For the Black Friday weekend</span
+              >
+              <div class="light_bar">
+                <span class="light_bar_text">75% SAVE</span>
+              </div>
             </div>
-         </nav>
-      </header>
-      <main id="main">
-         <!-- Div for the first section -->
-         <div class="first_container">
-            <div class="text_content">
-               <div class="light_dark_bar">
-                  <span>75% SAVE</span>
-                  <span>For the Black Friday weekend</span>
-               </div>
-               <h1>Fastest & secure platform to invest in crypto</h1>
-               <p>Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.</p>
-               <div class="button_container">
-                  <a href="/">Try for FREE</a>
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <circle cx="16" cy="16" r="16" fill="white"/>
-                     </svg>
-               </div>
+            <h1 class="text_content_big_text">
+              Fastest & secure platform to invest in crypto
+            </h1>
+            <p class="text_content_small_text">
+              Buy and sell cryptocurrencies, trusted by 10M wallets with over
+              $30 billion in transactions.
+            </p>
+            <div class="button_container">
+              <a href="/">Try for FREE</a>
+              <svg
+                class="button_container_icon"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="16" cy="16" r="16" fill="white" />
+                <path
+                  d="M14.5 20.9999C14.3684 21.0007 14.2379 20.9755 14.1161 20.9257C13.9943 20.8759 13.8834 20.8026 13.79 20.7099C13.6963 20.617 13.6219 20.5064 13.5711 20.3845C13.5203 20.2626 13.4942 20.1319 13.4942 19.9999C13.4942 19.8679 13.5203 19.7372 13.5711 19.6154C13.6219 19.4935 13.6963 19.3829 13.79 19.2899L17.1 15.9999L13.92 12.6899C13.7337 12.5026 13.6292 12.2491 13.6292 11.9849C13.6292 11.7207 13.7337 11.4673 13.92 11.2799C14.013 11.1862 14.1236 11.1118 14.2454 11.061C14.3673 11.0103 14.498 10.9841 14.63 10.9841C14.762 10.9841 14.8927 11.0103 15.0146 11.061C15.1364 11.1118 15.247 11.1862 15.34 11.2799L19.2 15.2799C19.3832 15.4669 19.4859 15.7182 19.4859 15.9799C19.4859 16.2417 19.3832 16.493 19.2 16.6799L15.2 20.6799C15.1102 20.7769 15.0022 20.855 14.882 20.91C14.7619 20.9649 14.632 20.9955 14.5 20.9999Z"
+                  fill="#3671E9"
+                />
+              </svg>
             </div>
-            <div class="illustration_container">
-               <img src="/assets/Images/Illustration.png" alt="Bitcoin illustration">
+          </div>
+          <div class="illustration_container">
+            <img
+              src="/assets/Images/Illustration.png"
+              alt="Bitcoin illustration"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION FOR ANALYTICS -->
+      <section class="summary">
+        <div class="analytics">
+          <div class="analytics__box1">
+            <div class="analytics__box__icon">
+              <i class="fa-solid fa-chart-simple"></i>
             </div>
-         </div>
-      </main>
-      <footer id="footer"></footer>
-   </body>
+            <p class="analytics__box--heading">$30B</p>
+            <p class="analytics__box--paragraph">Digital Currency Exchange</p>
+          </div>
+
+          <div class="analytics__box2">
+            <div class="analytics__box__icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <p class="analytics__box--heading">10M+</p>
+            <p class="analytics__box--paragraph">Trusted Wallets Investor</p>
+          </div>
+
+          <div class="analytics__box3">
+            <div class="analytics__box__icon">
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+            <p class="analytics__box--heading">195</p>
+            <p class="analytics__box--paragraph">Countries Supported</p>
+          </div>
+        </div>
+        <div class="hero__summary">
+          <div class="hero__image">
+            <img src="" alt="" class="hero__summary--image" />
+          </div>
+          <div>
+            <h2 class="hero__summary--heading">Why you should CRAPPO</h2>
+            <p class="hero__summary--paragraph">
+              Experience the next generation cryptocurrency platform. No
+              financial borders, extra views, and fake reviews.
+            </p>
+            <div class="hero__summary--button">
+              <button>
+                <a href="" class="hero__summary--button-link">Learn more</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="">
+          <div class="">
+            <h2>Check how much you can earn</h2>
+            <p>
+              Let's check your hash rate to see how much you will earn today,
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+          <div class="">
+            <label>
+              <input type="text" placeholder="Enter your hash rate" />
+              <select name="" id="">
+                <option value="TH/s">TH/s</option>
+              </select>
+              <button type="button">Calculate</button>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- Div for Cryptocurrencies(name in Figma design file) Contribution from Titi -->
+      <section class="crypto-container">
+        <div class="crypto-heading">
+          <h3 class="crypto-text"></h3>
+        </div>
+        <div class="coinboxes">
+          <div class="bitcoin">
+            <img src="" alt="" class="bitcoin__img" />
+            <div class="bname-container">
+              <p class="bit-name"></p>
+              <p calss="btc"></p>
+            </div>
+            <p class="fine-print"></p>
+            <a href="" class="coin__link"> Start mining </a>
+          </div>
+          <div class="ethereum">
+            <img src="" alt="" class="ethereum__img" />
+            <div class="ethname-container">
+              <p class="eth-name"></p>
+              <p calss="eth"></p>
+            </div>
+            <p class="fine-print"></p>
+            <a href="" class="coin__link"></a>
+          </div>
+          <div class="litecoin">
+            <img src="" alt="" class="litecoin__img" />
+            <div class="litename-container">
+              <p class="lite-name"></p>
+              <p calss="ltc"></p>
+            </div>
+            <p class="fine-print"></p>
+            <a href="" class="coin__link"></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Market Sentiments Section -->
+      <section class="main_section_container">
+        <div class="sub_section">
+          <h2 class="h2_sub_section">
+            Market sentiments, portfolio, and run the infrastructure of your
+            choice
+          </h2>
+        </div>
+        <div class="first_row">
+          <div class="first_row_item">
+            <h3>Invest Smart</h3>
+            <p>
+              Get full statistic information about the behaviour of buyers and
+              sellers will help you to make the decision.
+            </p>
+            <button><a href="#">Learn More</a></button>
+          </div>
+
+          <div class="first_row_item">
+            <img src="" alt="Bitcoin_Image" />
+          </div>
+        </div>
+
+        <div class="first_row">
+          <div class="first_row_item">
+            <img src="" alt="Chart_Image" />
+          </div>
+
+          <div class="first_row_item">
+            <h3>Detailed Statistics</h3>
+            <p>
+              View all mining related information in realtime, at any point at
+              any location and decide which polls you want to mine in.
+            </p>
+            <button><a href="#">Learn More</a></button>
+          </div>
+        </div>
+
+        <div class="first_row">
+          <div class="first_row_item">
+            <h3>Grow your profit and track your investments</h3>
+            <p>
+              Use advanced analytical tools. Clear TradingView charts let you
+              track current and historical profit investments.
+            </p>
+            <button><a href="#">Learn More</a></button>
+          </div>
+
+          <div class="first_row_item">
+            <img src="" alt="Bitcoin_Table" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer"></footer>
+  </body>
 </html>
