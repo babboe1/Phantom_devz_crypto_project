@@ -128,23 +128,44 @@
         </div>
       </section>
 
-      <section>
-        <div class="">
-          <div class="">
-            <h2>Check how much you can earn</h2>
-            <p>
+      <!-- EARN SECTION  BY  MIKKY -->
+      <section class="section-3">
+        <div class="earn">
+          <div class="earn--wrapper">
+            <h2 class="earn--heading">Check how much you can earn</h2>
+            <p class="earn--text">
               Let's check your hash rate to see how much you will earn today,
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
-          <div class="">
-            <label>
-              <input type="text" placeholder="Enter your hash rate" />
-              <select name="" id="">
+          <div class="calculation">
+            <form class="calculation--wrapper">
+              <input
+                type="text"
+                placeholder="Enter your hash rate"
+                class="hashrate--input"
+              />
+              <select class="hashrate--select">
                 <option value="TH/s">TH/s</option>
+                <option value="H/s">H/s</option>
+                <option value="KH/s">KH/s</option>
+                <option value="MH/s">MH/s</option>
+                <option value="GH/s">GH/s</option>
               </select>
-              <button type="button">Calculate</button>
-            </label>
+              <button type="button" class="hashrate--button">Calculate</button>
+            </form>
+
+            <div class="estimate">
+              <h2 class="estimate--heading">ESTIMATED 24 HOUR REVENUE:</h2>
+              <p class="estimate--figure">
+                0.055 130 59 ETH
+                <span class="estimate--figure__span">($1275)</span>
+              </p>
+              <p class="estimate--text">
+                Revenue will change based on mining difficulty and Ethereum
+                price.
+              </p>
+            </div>
           </div>
         </div>
       </section>

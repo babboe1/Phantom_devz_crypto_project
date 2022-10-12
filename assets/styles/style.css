@@ -15,7 +15,7 @@ html {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  background: #0D0D2B;
+  background: #0d0d2b;
   color: #ffffff;
 }
 
@@ -37,7 +37,6 @@ a {
   justify-content: space-between;
   padding: 4rem 7.5rem 5.36rem;
 }
-
 
 /* styles for nav menu and login*/
 #nav {
@@ -83,8 +82,115 @@ a {
   padding: 0 7.5rem;
 }
 
-
 /*Hero section  */
 .hero-section {
-  
+}
+
+.earn {
+  margin: 2rem 0;
+  font-family: Rubik;
+}
+
+.earn--wrapper {
+  text-align: center;
+}
+
+.earn--heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.earn--text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #e0e0e0;
+  margin-bottom: 2.5rem;
+  padding: 0 18rem;
+}
+
+.calculation {
+  background-color: #fbfcfe;
+  width: 55rem;
+  height: 20rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+.calculation--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.hashrate--input {
+  width: 100%;
+  max-width: 20rem;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 0 0.5rem;
+}
+
+.hashrate--input:focus {
+  outline: none;
+}
+
+.hashrate--input::placeholder {
+  color: #0d0d2b;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hashrate--select {
+  width: 100%;
+  max-width: 10rem;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 0 0.5rem;
+  color: #0d0d2b;
+}
+
+.hashrate--select:focus {
+  outline: none;
+}
+
+.hashrate--button {
+  background: #3671e9;
+  border-radius: 3rem;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.estimate {
+  margin: 1rem 0;
+  padding: 0 2rem;
+  line-height: 3rem;
+}
+
+.estimate--heading {
+  color: #3671e9;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.estimate--figure {
+  color: #0d0d2b;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.estimate--figure__span {
+  color: #3671e9;
+}
+
+.estimate--text {
+  color: #828282;
+  font-size: 1rem;
+  font-weight: 400;
 }
