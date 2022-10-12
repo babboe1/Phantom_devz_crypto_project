@@ -1,6 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Universal Styles */
 * {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+/* LAYOUT FOR CRYPTOCURRENCIES PART OF THE PROJECT */
+.crypto-container {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 617px;
+}
+
+.crypto-heading {
+	width: 741px;
+	height: 120px;
+}
+
+.coinboxes {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bitcoin,
+.ethereum,
+.litecoin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 16px;
+	width: 370px; 
+	height: 433px; 
+}
+
+.bitcoin {
+	background-color: #2b076e;
+}
+
+.ethereum,
+.litecoin {
+	background-color: #fff;
+	box-shadow: 0px 40px 40px #391777;
+	border-radius: 16px;
+}
+
+.bitcoin_img,
+.ethereum_img,
+.litecoin_img {
+	width: 38px;
+	height: 50px;
+	
+}
+
+.bitcoin_img {
+	background: linear-gradient(180deg, #F9AA4B -0.02%, #F7931A 99.9%);
+	border-radius: 35%;
+}	
+
+.ethereum_img {
+	background: #1181E8;
+	border-radius: 50%;
+}
+
+.bname-container,
+.ethname-container,
+.litename-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 48px 0 18px 0;
+}
+
+.coin_link {
+	text-decoration: none;
+	padding: 16px 16px 16px 24px;
+	background: #3671E9;
+	border-radius: 32px;
+	color: #fff;
+}
+
+/* TYPOGRAPHY FOR CRYPTOCURRENCIES PART OF THE PROJECT */
+.crypto-text {
+	line-height: 3.75rem;
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-align: center;
+	color: #0D0D2B;
+}
+
+.bit-name,
+.eth-name,
+.lite-name {
+	font-size: 2rem;
+	font-weight: 700;
+	
+}
+
+.bit-name {
+	width: 116px;
+	color: #Fff;
+}
+
+.eth-name,
+.lite-name {
+	width: 116px;
+	color: #0D0D2B;
+}
+
+.btc,
+.eth,
+.ltc {
+	font-size: 1.125rem;
+	font-weight: 500;
+}	
+
+.btc {
+	color: #fff;
+	opacity: 0.7;
+}
+
+.eth,
+.ltc {
+	color: #BDBDBD;
+	padding-left: 10px;
+}
+
+.fine-print {
+	font-size:1rem;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 20px;
+}
+	
   box-sizing: border-box;
   padding: 0;
   margin: 0;
